@@ -18,7 +18,7 @@ Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCo
 # Terraform Installation Guide
 
 ## Linux:
-1. Download the Terraform binary: You can download the latest version of Terraform from the official Terraform downloads page (https://developer.hashicorp.com/terraform/install?product_intent=terraform). Choose the package that corresponds to your system architecture, either 32-bit or 64-bit.
+1. Download the Terraform binary: You can download the latest version of Terraform from the official [Terraform downloads page](https://developer.hashicorp.com/terraform/install?product_intent=terraform). Choose the package that corresponds to your system architecture, either 32-bit or 64-bit.
 2. Extract the downloaded file: Once the zip file is downloaded, you can extract it using the unzip command in your terminal:
 ```bash
 unzip <downloaded_file>
@@ -35,7 +35,7 @@ terraform --version
 ```
 
 ## Windows:
-1. Download the Terraform binary: You can download the latest version of Terraform from the official Terraform downloads page (https://developer.hashicorp.com/terraform/install?product_intent=terraform). Choose the package that corresponds to your system architecture, either 32-bit or 64-bit.
+1. Download the Terraform binary: You can download the latest version of Terraform from the official [Terraform downloads page](https://developer.hashicorp.com/terraform/install?product_intent=terraform). Choose the package that corresponds to your system architecture, either 32-bit or 64-bit.
 2. Extract the downloaded file: Once the zip file is downloaded, you can extract it by right-clicking the file and selecting “Extract All…”.
 3. Add the Terraform binary to your PATH: After extracting the zip file, you will find a file named terraform.exe in the extracted folder. This is the Terraform binary. You need to add the directory containing this file to your system’s PATH:
 - Right-click on “This PC” (or “My Computer”) and select “Properties”.
@@ -50,7 +50,7 @@ terraform --version
 This command should print the version of Terraform that you installed.
 
 ## Windows | Chocolatey
-To install Terraform using Chocolatey, a package manager for Windows, you can follow these steps:
+To install Terraform using [Chocolatey](https://chocolatey.org/), a package manager for Windows, you can follow these steps:
 1. Open a Command Prompt or PowerShell as an Administrator: You can do this by searching for cmd or PowerShell in the Start menu, right-clicking on the Command Prompt or PowerShell, and selecting “Run as administrator”.
 2. Check if Chocolatey is installed: Type choco -? in the Command Prompt or PowerShell. If you see some options appear, it means that Chocolatey is already installed. If not, proceed to the next step.
 3. Install Chocolatey: If Chocolatey is not installed, you can install it by running the following command1:
