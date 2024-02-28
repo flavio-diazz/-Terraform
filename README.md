@@ -1,5 +1,4 @@
-# About Terraform - 
-
+# About Terraform:
 Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCorp. It allows developers to define and provide infrastructure using a declarative configuration language. This means you describe your infrastructure as code, and Terraform will ensure that the infrastructure is in the state you described.
 
 # Advantages:
@@ -9,13 +8,14 @@ Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCo
 - State Management: Terraform maintains a state file which allows it to create plans and make changes to your infrastructure with a high degree of accuracy.
 - Integration with Existing Tools: Terraform can be easily integrated with existing tools and services, such as Packer for creating machine images or Kubernetes for container orchestration.
 
-# Key Usability Points
+# Key Usability Points:
 - Configuration Files: Terraform uses configuration files to describe the infrastructure. These files can be shared and collaborated on, making it easy to version control your infrastructure.
 - Execution Plans: Terraform has a ‘planning’ step where it generates an execution plan describing what it will do to reach the desired state.
 - Resource Graph: Terraform builds a graph of all your resources and parallelizes the creation and modification of any non-dependent resources.
 - Change Automation: With Terraform, you can apply a set of changes to your infrastructure in an automatic and efficient way.
 
-# Terraform Installation Guide - 
+
+# Terraform Installation Guide
 
 ## Linux:
 1. Download the Terraform binary: You can download the latest version of Terraform from the official Terraform downloads page (https://developer.hashicorp.com/terraform/install?product_intent=terraform). Choose the package that corresponds to your system architecture, either 32-bit or 64-bit.
