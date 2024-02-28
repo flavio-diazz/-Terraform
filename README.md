@@ -3,16 +3,17 @@
 Terraform is an open-source Infrastructure as Code (IaC) tool created by HashiCorp. It allows developers to define and provide infrastructure using a declarative configuration language. This means you describe your infrastructure as code, and Terraform will ensure that the infrastructure is in the state you described.
 
 # Advantages:
-Platform Agnostic: Terraform supports a multitude of providers such as AWS, Google Cloud, Azure, and many others. This means you can manage a multi-cloud environment using the same tool and the same language.
-Immutable Infrastructure: Terraform treats infrastructure as immutable, meaning it avoids updating existing resources. Instead, it will destroy and recreate the resource, ensuring that your infrastructure stays in the desired state.
-Modular and Reusable: Terraform allows you to create modules, which are reusable components of your infrastructure. This promotes code reuse and infrastructure consistency.
-State Management: Terraform maintains a state file which allows it to create plans and make changes to your infrastructure with a high degree of accuracy.
-Integration with Existing Tools: Terraform can be easily integrated with existing tools and services, such as Packer for creating machine images or Kubernetes for container orchestration.
-Key Usability Points
-Configuration Files: Terraform uses configuration files to describe the infrastructure. These files can be shared and collaborated on, making it easy to version control your infrastructure.
-Execution Plans: Terraform has a ‘planning’ step where it generates an execution plan describing what it will do to reach the desired state.
-Resource Graph: Terraform builds a graph of all your resources and parallelizes the creation and modification of any non-dependent resources.
-Change Automation: With Terraform, you can apply a set of changes to your infrastructure in an automatic and efficient way.
+- Platform Agnostic: Terraform supports a multitude of providers such as AWS, Google Cloud, Azure, and many others. This means you can manage a multi-cloud environment using the same tool and the same language.
+- Immutable Infrastructure: Terraform treats infrastructure as immutable, meaning it avoids updating existing resources. Instead, it will destroy and recreate the resource, ensuring that your infrastructure stays in the desired state.
+- Modular and Reusable: Terraform allows you to create modules, which are reusable components of your infrastructure. This promotes code reuse and infrastructure consistency.
+- State Management: Terraform maintains a state file which allows it to create plans and make changes to your infrastructure with a high degree of accuracy.
+- Integration with Existing Tools: Terraform can be easily integrated with existing tools and services, such as Packer for creating machine images or Kubernetes for container orchestration.
+
+# Key Usability Points
+- Configuration Files: Terraform uses configuration files to describe the infrastructure. These files can be shared and collaborated on, making it easy to version control your infrastructure.
+- Execution Plans: Terraform has a ‘planning’ step where it generates an execution plan describing what it will do to reach the desired state.
+- Resource Graph: Terraform builds a graph of all your resources and parallelizes the creation and modification of any non-dependent resources.
+- Change Automation: With Terraform, you can apply a set of changes to your infrastructure in an automatic and efficient way.
 
 # Terraform Installation Guide - 
 
