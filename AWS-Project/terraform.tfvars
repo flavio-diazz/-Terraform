@@ -1,7 +1,9 @@
 # Nesse projeto estou usando o arquivo .tfvars que é utilizado para gerenciar atribuições de variáveis de forma sistemática.
 # Eles são especialmente úteis quando você trabalha com vários ambientes (como teste, staging e produção) e precisa configurar variáveis de acordo com cada ambiente.
 # Arquivos nomeados como terraform.tfvars serão consultados por padrão no momento da execução, porém, caso seja nomeado com um nome diferente (filename.tfvars), é necessário declarar no momento da execução:
+```bash 
 terraform apply -var-file=my_vars.tfvars
+```
 
 # Network Variables
 vpc_cidr_block  = "192.168.0.0/16"
