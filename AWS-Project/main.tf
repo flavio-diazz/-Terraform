@@ -27,7 +27,7 @@ provider "aws" {
 
 # Bloco de network, onde serão passados os paramentros definidos nos arquivos de criação dos itens de network
 module "network" {
-  source          = "./network"
+  source          = "./network" #path onde os arquivos estão
   vpc_cidr_block  = var.vpc_cidr_block
   snet_cidr_block = var.snet_cidr_block
   rtb_cidr_block  = var.rtb_cidr_block
@@ -40,7 +40,7 @@ module "network" {
 
 # Bloco de instancias, onde serão passados os parametros definidos nos arquivos de criação das vms
 module "virtual-machine" {
-  source         = "./virtual-machine"
+  source         = "./virtual-machine" #path onde os arquivos estão
   ec2_ami        = var.ec2_ami
   inst_type      = var.inst_type
   snet_id        = module.network.snet_id #aqui precisamos referenciar o módulo de network, pois essas informações foram declaradas e serão consumidas nele
