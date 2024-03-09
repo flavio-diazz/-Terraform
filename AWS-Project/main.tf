@@ -38,7 +38,7 @@ module "network" {
   tags = var.tags
 }
 
-# Bloco de instancias, onde serão passados os paramentros definidos nos arquivos de criação das vms
+# Bloco de instancias, onde serão passados os parametros definidos nos arquivos de criação das vms
 module "virtual-machine" {
   source         = "./virtual-machine"
   ec2_ami        = var.ec2_ami
