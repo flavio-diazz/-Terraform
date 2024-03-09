@@ -1,5 +1,5 @@
 resource "aws_key_pair" "KEY-PAIR-01" {
-  key_name   = "" #nome da chave de acesso
+  key_name   = "" #nome da chave de acesso que nesse caso foi gerada e armazenada na maquina onde o terraform está sendo executado
   public_key = file("") #path da pub key
 }
 
