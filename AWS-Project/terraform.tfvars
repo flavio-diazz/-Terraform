@@ -13,13 +13,13 @@ rtb_cidr_block  = "0.0.0.0/0"
 ingress_rule = [{    # como utilizei o tipo list(object) na varivel "ingress_rule", podemos repetir os itens utilizando a mesma variavel.
   from_port   = 0
   to_port     = 22
-  protocol    = "SSH"
+  protocol    = "TCP"
   cidr_blocks = ["0.0.0.0/0"]
   },
   {
     from_port   = 0
     to_port     = 443
-    protocol    = "HTTPS"
+    protocol    = "TCP"
     cidr_blocks = ["0.0.0.0/0"]
   }
 ]
@@ -27,13 +27,13 @@ ingress_rule = [{    # como utilizei o tipo list(object) na varivel "ingress_rul
 egress_rule = [{      # como utilizei o tipo list(object) na varivel "egress_rule", podemos repetir os itens utilizando a mesma variavel.
   from_port   = 0
   to_port     = 443
-  protocol    = "HTTPS"
+  protocol    = "TCP"
   cidr_blocks = ["0.0.0.0/0"]
   },
   {
     from_port   = 0
     to_port     = 80
-    protocol    = "HTTP"
+    protocol    = "TCP"
     cidr_blocks = ["0.0.0.0/0"]
   }
 ]
