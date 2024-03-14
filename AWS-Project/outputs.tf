@@ -11,5 +11,4 @@ output "Public-IP" {
 }
 
 output "Private-IP" {
-  value = module.virtual-machine.inst_pulic_ip
-}
+  value = module.virtual-machine.inst_private_ip
