@@ -24,8 +24,7 @@ ingress_rule = [{    # como utilizei o tipo list(object) na varivel "ingress_rul
   }
 ]
 
-egress_rule = [{      # como utilizei o tipo list(object) na varivel "egress_rule", podemos repetir os itens utilizando a mesma variavel.
-  from_port   = 0
+egress_rule = [{      
   to_port     = 443
   protocol    = "TCP"
   cidr_blocks = ["0.0.0.0/0"]
